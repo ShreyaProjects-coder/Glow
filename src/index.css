@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  border-bottom: 2px solid #feb47b; /* Bottom border with color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #fff3e0; /* Light color on hover */
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem; /* Slightly larger font */
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff7e5f; /* Change color on hover */
+}
+
+/* .navbar-toggler-icon {
+  background-image: url('path/to/your/custom-icon.png'); /* Custom icon */
+ /* }  */
+
+.form-control {
+  border-radius: 25px; /* Rounded input */
+  border: 1px solid #ff7e5f;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #feb47b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 225, 198, 0.25); /* Focus state */
+}
+
+.btn-outline-success {
+  color: #ff7e5f;
+  border-color: #ff7e5f;
+  border-radius: 25px; /* Rounded button */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #ff7e5f;
+  color: #fff;
 }
